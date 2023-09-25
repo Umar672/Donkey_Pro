@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Reports Page</title>
+</head>
+<body>
+<header>
+  <div class="logo">Logo</div>
+  <nav>
+    <ul>
+      <li><a href="#">Bookings</a></li>
+      <li><a href="#">Locations</a></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="reports">
+    <h1>Reports</h1>
+    <form>
+      <div class="form-group">
+        <label for="date-range">Select Date Range:</label>
+        <input type="date" id="start-date" name="start-date" required>
+        <span>-</span>
+        <input type="date" id="end-date" name="end-date" required>
+      </div>
+      <button type="submit">Generate Report</button>
+    </form>
+    <div class="report-results">
+      <!-- Hier worden de rapportresultaten weergegeven -->
+    </div>
+  </section>
+</main>
+</body>
+</html>

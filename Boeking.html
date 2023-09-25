@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Booking Page</title>
+</head>
+<body>
+<header>
+  <div class="logo">Logo</div>
+  <nav>
+    <ul>
+      <li><a href="#">Bookings</a></li>
+      <li><a href="#">Locations</a></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="booking-form">
+    <h1>New Booking</h1>
+    <form>
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <select id="location" name="location" required>
+          <option value="location1">Location 1</option>
+          <option value="location2">Location 2</option>
+          <option value="location3">Location 3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="guests">Guests:</label>
+        <input type="number" id="guests" name="guests" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</main>
+</body>
+</html>
